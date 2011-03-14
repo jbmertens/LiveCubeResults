@@ -1,0 +1,59 @@
+Future
+------
+Usability Issues!!
+Generate mysql queries for Bob/Ron?
+Bug fixes
+Anything else?
+
+v2.4
+----
+Added code to handle no spreadsheet being uploaded
+Minor bug fixes
+
+v2.3
+----
+Added general settings control pannel
+Added scoreboard control pannel
+Scoreboard constantly checks for updates
+More scoreboard options
+Bug fixes
+
+v2.2
+----
+Added more winners pages and options
+Support for multisite configuration
+
+v2.1
+----
+Added 'winners' page
+Several minor bug fixes
+Added optional darker styling
+
+v2.0
+----
+Scoreboard page added
+Layout redone
+Spreadsheet backup implemented
+Ajax incorporated, refined
+More templates added, code revision
+Support added for multiple rounds of an event
+Filesystem checks and alerts on upload page
+Displays (some) styles from spreadsheet
+More decomposition of code
+
+
+v1.0
+----
+Spreadsheets from workbook are now cached individually (big change)
+Individual competitor pages layout changed
+Public upload option available
+
+
+v0.1
+----
+Basic individual competitor pages display implemented
+
+v0.0
+----
+Basic upload of WCA XLS implemented
+Basic display of results implemented

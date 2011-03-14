@@ -1,0 +1,23 @@
+[results]
+current = "all"
+top = 3
+tope = 5
+winn = 3
+wine = 5
+cenum = "1,2,3"
+ind = "Mike Hughey"
+
+[scrolling]
+scroll = 1
+scroll_inc = 3
+speed = 100
+
+[banner]
+showbanner = 1
+scrolltext = "Welcome to the competition! Please don't come up until you have been called to compete."
+plaintext = "<em>Please refrain from using flash photography during the competition.</em>"
+
+[appearance]
+styling = "light"
+custom_css = ""
+

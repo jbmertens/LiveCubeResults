@@ -1,0 +1,23 @@
+# Apache/PHP settings:
+
+# Protect sensitive files and directories from prying eyes.
+<FilesMatch "\.(ini|inc(\.php)?|tpl(\.php)?|info|xls|event|ser|scripts|templates|cache)$">
+  Order allow,deny
+</FilesMatch>
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Force simple error message for requests for non-existent favicon.ico.
+<Files favicon.ico>
+  # There is no end quote below, for compatibility with Apache 1.3.
+  ErrorDocument 404 "The requested file favicon.ico was not found.
+</Files>
+
+# Rewrite rules off (this script is sitting behind a drupal install on the koii server)
+<IfModule mod_rewrite.c>
+  RewriteEngine off
+</IfModule>

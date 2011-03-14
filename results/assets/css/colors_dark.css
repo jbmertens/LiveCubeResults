@@ -1,0 +1,96 @@
+body {
+	/* default background color */
+	background: #000000;
+}
+
+
+/** tabs **/
+
+div#tabs {
+	border: 2px solid #060;
+}
+
+div#tabs ul li a{
+	color: #999;
+}
+
+div#tabs ul li a.active{
+	color: #FFF;
+	border: 2px solid #060;
+	border-right: 2px solid #000;
+}
+
+div#tabs ul li a:hover,
+div#tabs ul li a.active:hover{
+	color: #060;
+}
+
+
+/** scoreboard (projector) **/
+
+div.scoreboard_head {
+	background: #DDD;
+}
+
+
+/** results coloring **/
+#results {
+	background: #000;
+	border: 2px solid #333;
+}
+
+#results a {
+	color: #FFF;
+}
+
+#results p, h1, h2 {
+	color: #EEE;
+}
+
+#results a.aname {
+	color: #FFF;
+}
+
+#results select {
+	background-color:#333;
+	color:#FFF;
+}
+
+#results .down {
+	color: #333;
+}
+
+
+/** results tables coloring **/
+
+#results tr a {
+	background-color: transparent;
+}
+
+#results table tr th {
+	background: #444 none top right repeat-x;
+}
+
+#results table tr th,
+#results table tr td {
+	color:#EEE;
+}
+
+#results table tr.striped,
+#results table tr.striped td,
+#results table tr.striped th {
+	background-color: #333;
+}
+
+
+/** event status classes **/
+
+#results .done {
+	color: #0D0;
+}
+#results .partway {
+	color: #EE0;
+}
+#results .nostart {
+	color: #E00;
+}

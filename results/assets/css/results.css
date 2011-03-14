@@ -1,0 +1,187 @@
+/** basic results div styles **/
+
+#results {
+	overflow: hidden;
+	padding: 1%;
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px auto;
+}
+
+#results p {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#results a {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#results a img {
+	border: none;
+}
+
+#results p a {
+	text-decoration: none;
+}
+
+#results h1 {
+	font-size: 2em;
+	line-height: 2em;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#results h3 {
+	font-size: 1em;
+}
+
+#results title {
+	padding: 0; margin: 0px;
+	text-align: center;
+}
+
+#results a.aname {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#results select {
+	overflow: hidden;
+}
+
+#results .butt {
+	background: transparent url(../img/chosen_button_background.png) repeat-x scroll 0 0;
+	border: 3px double #CCCCCC;
+	color: #FF6600;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	height: 22px;
+	width: 40px;
+	margin: 0px;
+	margin-left: 3px;
+	padding: 1px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#results #loadimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 16px;
+}
+
+#results #wcaimage {
+	display: block;
+	position: relative;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 64px;
+}
+
+#results #maindisplay {
+	min-height: 50px;
+	margin-top: 10px;
+}
+
+#results .noresults {
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid;
+	padding: 10px;
+}
+
+/** basic table properties **/
+
+#results table {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.1em;
+}
+
+#results table tr th,
+#results table tr td {
+	padding: 1px 2px 0 0;
+	margin: 0px;
+	font-weight: bold;
+	height: 19px;
+	text-align: left;
+}
+#results table tr td {
+	font-weight: normal;
+	background: transparent none;
+	height: 17px;
+	font-weight: normal;
+}
+
+/** table/column specific properties **/
+
+#results table tr th,
+#results table tr td {
+	text-align: right;
+	width: 10px;
+}
+#results table tr th + th,
+#results table tr td + td {
+	text-align: left;
+	width: auto;
+}
+#results table tr td+td+td,
+#results table tr th+th+th {
+	text-align: center;
+	width: auto;
+}
+
+#results table.individual tr td,
+#results table.individual tr th {
+	width: auto;
+	text-align: left;
+}
+#results table.individual tr td+td,
+#results table.individual tr th+th {
+	width: auto;
+	text-align: center;
+}
+#results table.individual tr td+td+td+td+td+td,
+#results table.individual tr th+th+th+th+th+th {
+	width: auto;
+	text-align: left;
+}
+
+/** events table **/
+#results table.events tr td,
+#results table.events tr th{
+	width: auto;
+	text-align: left;
+}
+
+#results table.individual .avg {
+     font-weight: bold;
+     text-align: right;
+}
+#results table.individual .best {
+     font-weight: bold;
+     text-align: right;
+}
+#results table.individual .worst {
+     text-align: middle;
+}
+#results table.individual .details {
+     text-align: left;
+}
+#results table.individual .WR {
+     text-align: middle;
+}
+
+/** projector enlargement **/
+div.projector {
+	width: 1000px;
+}
+#results div.larger {
+	font-size: 1.5em;
+}

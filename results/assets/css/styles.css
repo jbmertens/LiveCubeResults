@@ -1,0 +1,83 @@
+html {
+	overflow-y: scroll;
+}
+body {
+	/* reset browser margins */
+	padding: 0px;
+	margin: 0px;
+}
+
+select {
+	width: 149px;
+}
+
+/* column container */
+.container {
+	clear: both;
+	width: 900px;
+}
+
+/* column types */
+.column {
+	float: left;
+	display: block;
+	background: none;
+	margin: 0 0 0 5px;
+}
+.narrow {
+	width: 175px;
+}
+.wide {
+	width: 715px;
+}
+
+/** tabs **/
+div#tabs {
+	width: 145px;
+	margin-bottom: 27px;
+	font-size: 1.5em;
+	text-align: right;
+}
+
+div#tabs ul {
+	margin: 4px 0 4px 20px;
+	width: 125px;
+	padding: 0;
+}
+div#tabs ul li{
+	margin: 3px 0;
+	list-style-type: none;
+	width: 125px;
+}
+div#tabs ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 6px 4px;
+	font-weight: bold;
+	margin-right: 0px;
+}
+div#tabs ul li a.active{
+	text-decoration: none;
+	display: block;
+	padding: 6px 4px;
+	font-weight: bold;
+	margin-right: -2px;
+}
+
+/** scoreboard head **/
+div.scoreboard_head {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	overflow: hidden;
+}
+
+div#results.projector {
+	margin-top: 130px;
+}

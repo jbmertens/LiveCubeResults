@@ -1,0 +1,101 @@
+body {
+	/* default background color */
+	background: #bbbbbb;
+}
+
+
+/** tabs **/
+
+div#tabs {
+	border: 2px solid #F60;
+}
+
+div#tabs ul li a{
+	color: #666;
+}
+
+div#tabs ul li a.active{
+	color: #000;
+	border: 2px solid #F60;
+	border-right: 2px solid #FFF;
+}
+
+div#tabs ul li a:hover,
+div#tabs ul li a.active:hover{
+	color: #F60;
+}
+
+
+/** scoreboard (projector) **/
+
+div.scoreboard_head {
+	background: #9adaf0;
+}
+
+
+/** results coloring **/
+#results {
+	background: #FFF;
+	border: 2px solid #CCCCCC;
+}
+
+#results a {
+	color: #F30;
+}
+
+#results p {
+	color: #000;
+}
+
+#results a.aname {
+	color: #F30;
+}
+
+#results select {
+	background-color:#EEEEEE;
+	color:#FF6600;
+}
+
+#results .down {
+	color: #333;
+}
+
+
+/** results tables coloring **/
+
+#results tr a {
+	background-color: transparent;
+}
+
+#results table tr th {
+	background: #DDD url(../img/subhead_bg.png) top right repeat-x;
+}
+
+#results table tr th,
+#results table tr td {
+	color:#666;
+}
+
+#results table tr td {
+	color: #333;
+}
+
+#results table tr.striped,
+#results table tr.striped td,
+#results table tr.striped th {
+	background-color: #DDD;
+}
+
+
+/** event status classes **/
+
+#results .done {
+	color: #0A0;
+	font-color: #0A0;
+}
+#results .partway {
+	color: #BB0;
+}
+#results .nostart {
+	color: #C00;
+}

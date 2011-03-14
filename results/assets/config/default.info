@@ -1,0 +1,14 @@
+[competition_settings]
+upload_password  = "whootchaasdf123!" ; should be changed!
+competition_name_full = "Rubik's Cube Competition"
+competition_details = "Jan. 1 - Venue Name - State, Country"
+competition_website = "http://www.worldcubeassociation.org"
+WCA_cid = "competitionid"
+logo = "assets/img/logo.png"
+favicon_url = "assets/img/favicon.ico"
+schedule_link = "http://www.cubingusa.com/cubetcha/schedule.php"
+refresh_time = "15"
+
+[spreadsheet_settings]
+spreadsheet_filepath = "assets/cache/spreadsheets/results_WCA.xls"
+spreadsheet_backup_filepath = "assets/cache/spreadsheets/backup/"
